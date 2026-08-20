@@ -14,8 +14,8 @@ class VibeTalkApplication : Application() {
         super.onCreate()
 
         zegoEngine = ZegoExpressEngine.createEngine(
-            189447505,
-            "1fde1d7b9056fee612b72f3c145772a562c75007ed42d19b23555a7d349289b1",
+            appId,
+            appSign,
             false,
             ZegoScenario.GENERAL,
             this,
